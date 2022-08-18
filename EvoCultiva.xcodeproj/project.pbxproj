@@ -7,10 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0826B5B6261F2F0C0017B480 /* HerbiaryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826B5B5261F2F0C0017B480 /* HerbiaryDetails.swift */; };
+		0826B5B8261F2F730017B480 /* HerbiaryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0826B5B7261F2F730017B480 /* HerbiaryDetailView.swift */; };
+		08509680260BB2AE00D7668C /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0850967F260BB2AE00D7668C /* LoginPage.swift */; };
+		08509682260BB35100D7668C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08509681260BB35100D7668C /* DataManager.swift */; };
+		08509684260BEBE500D7668C /* CalculatorPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08509683260BEBE500D7668C /* CalculatorPage.swift */; };
+		08509686260BFEE300D7668C /* CalculatorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08509685260BFEE300D7668C /* CalculatorDetails.swift */; };
+		0850968B260CCF7400D7668C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0850968A260CCF7400D7668C /* DetailView.swift */; };
+		0850968D260D059500D7668C /* CalendarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0850968C260D059500D7668C /* CalendarPage.swift */; };
+		0898F7B1263C62F80083FE10 /* HerbiaryUI .swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898F7B0263C62F80083FE10 /* HerbiaryUI .swift */; };
+		0898F7B3263C63380083FE10 /* SettingsUI .swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898F7B2263C63380083FE10 /* SettingsUI .swift */; };
+		0898F7B5263C63510083FE10 /* SettingsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898F7B4263C63510083FE10 /* SettingsDetails.swift */; };
+		0898F7B7263C63660083FE10 /* SettingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0898F7B6263C63660083FE10 /* SettingsDetailView.swift */; };
+		089F11552600F8F200732A12 /* OpeningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F11542600F8F200732A12 /* OpeningScreen.swift */; };
 		08A2D95A26002EC400905EA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A2D95926002EC400905EA8 /* AppDelegate.swift */; };
 		08A2D95C26002EC400905EA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A2D95B26002EC400905EA8 /* SceneDelegate.swift */; };
 		08A2D95F26002EC400905EA8 /* EvoCultiva.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08A2D95D26002EC400905EA8 /* EvoCultiva.xcdatamodeld */; };
-		08A2D96126002EC400905EA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A2D96026002EC400905EA8 /* ContentView.swift */; };
+		08A2D96126002EC400905EA8 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A2D96026002EC400905EA8 /* MainMenu.swift */; };
 		08A2D96326002EC500905EA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A2D96226002EC500905EA8 /* Assets.xcassets */; };
 		08A2D96626002EC500905EA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A2D96526002EC500905EA8 /* Preview Assets.xcassets */; };
 		08A2D96926002EC500905EA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A2D96726002EC500905EA8 /* LaunchScreen.storyboard */; };
@@ -36,11 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0826B5B5261F2F0C0017B480 /* HerbiaryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbiaryDetails.swift; sourceTree = "<group>"; };
+		0826B5B7261F2F730017B480 /* HerbiaryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerbiaryDetailView.swift; sourceTree = "<group>"; };
+		0850967F260BB2AE00D7668C /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		08509681260BB35100D7668C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		08509683260BEBE500D7668C /* CalculatorPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPage.swift; sourceTree = "<group>"; };
+		08509685260BFEE300D7668C /* CalculatorDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorDetails.swift; sourceTree = "<group>"; };
+		0850968A260CCF7400D7668C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0850968C260D059500D7668C /* CalendarPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPage.swift; sourceTree = "<group>"; };
+		0898F7B0263C62F80083FE10 /* HerbiaryUI .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HerbiaryUI .swift"; path = "EvoCultiva/Settings page/HerbiaryUI .swift"; sourceTree = SOURCE_ROOT; };
+		0898F7B2263C63380083FE10 /* SettingsUI .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SettingsUI .swift"; sourceTree = "<group>"; };
+		0898F7B4263C63510083FE10 /* SettingsDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsDetails.swift; path = ../Herbiary/SettingsDetails.swift; sourceTree = "<group>"; };
+		0898F7B6263C63660083FE10 /* SettingsDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsDetailView.swift; path = ../Herbiary/SettingsDetailView.swift; sourceTree = "<group>"; };
+		089F11542600F8F200732A12 /* OpeningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningScreen.swift; sourceTree = "<group>"; };
 		08A2D95626002EC400905EA8 /* EvoCultiva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvoCultiva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A2D95926002EC400905EA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08A2D95B26002EC400905EA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		08A2D95E26002EC400905EA8 /* EvoCultiva.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EvoCultiva.xcdatamodel; sourceTree = "<group>"; };
-		08A2D96026002EC400905EA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08A2D96026002EC400905EA8 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		08A2D96226002EC500905EA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08A2D96526002EC500905EA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08A2D96826002EC500905EA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +104,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0826B5B4261F2D9A0017B480 /* Herbiary */ = {
+			isa = PBXGroup;
+			children = (
+				0898F7B0263C62F80083FE10 /* HerbiaryUI .swift */,
+				0826B5B5261F2F0C0017B480 /* HerbiaryDetails.swift */,
+				0826B5B7261F2F730017B480 /* HerbiaryDetailView.swift */,
+			);
+			path = Herbiary;
+			sourceTree = "<group>";
+		};
+		08509688260BFF2900D7668C /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				08509683260BEBE500D7668C /* CalculatorPage.swift */,
+				08509685260BFEE300D7668C /* CalculatorDetails.swift */,
+				0850968A260CCF7400D7668C /* DetailView.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		08509689260BFF5700D7668C /* Delegation */ = {
+			isa = PBXGroup;
+			children = (
+				08A2D95926002EC400905EA8 /* AppDelegate.swift */,
+				08A2D95B26002EC400905EA8 /* SceneDelegate.swift */,
+			);
+			path = Delegation;
+			sourceTree = "<group>";
+		};
+		0850968E260D29F800D7668C /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				08509681260BB35100D7668C /* DataManager.swift */,
+			);
+			path = "Data Manager";
+			sourceTree = "<group>";
+		};
+		0888681A26162B7A0043FC1A /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				0850968C260D059500D7668C /* CalendarPage.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		0888681B26162B940043FC1A /* Settings page */ = {
+			isa = PBXGroup;
+			children = (
+				0898F7B2263C63380083FE10 /* SettingsUI .swift */,
+				0898F7B4263C63510083FE10 /* SettingsDetails.swift */,
+				0898F7B6263C63660083FE10 /* SettingsDetailView.swift */,
+			);
+			path = "Settings page";
+			sourceTree = "<group>";
+		};
 		08A2D94D26002EC400905EA8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +182,15 @@
 		08A2D95826002EC400905EA8 /* EvoCultiva */ = {
 			isa = PBXGroup;
 			children = (
-				08A2D95926002EC400905EA8 /* AppDelegate.swift */,
-				08A2D95B26002EC400905EA8 /* SceneDelegate.swift */,
-				08A2D96026002EC400905EA8 /* ContentView.swift */,
+				08509689260BFF5700D7668C /* Delegation */,
+				0850967F260BB2AE00D7668C /* LoginPage.swift */,
+				08A2D96026002EC400905EA8 /* MainMenu.swift */,
+				0826B5B4261F2D9A0017B480 /* Herbiary */,
+				0888681B26162B940043FC1A /* Settings page */,
+				08509688260BFF2900D7668C /* Calculator */,
+				0850968E260D29F800D7668C /* Data Manager */,
+				0888681A26162B7A0043FC1A /* Calendar */,
+				089F11542600F8F200732A12 /* OpeningScreen.swift */,
 				08A2D96226002EC500905EA8 /* Assets.xcassets */,
 				08A2D96726002EC500905EA8 /* LaunchScreen.storyboard */,
 				08A2D96A26002EC500905EA8 /* Info.plist */,
@@ -270,10 +357,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0826B5B6261F2F0C0017B480 /* HerbiaryDetails.swift in Sources */,
+				089F11552600F8F200732A12 /* OpeningScreen.swift in Sources */,
 				08A2D95A26002EC400905EA8 /* AppDelegate.swift in Sources */,
 				08A2D95F26002EC400905EA8 /* EvoCultiva.xcdatamodeld in Sources */,
-				08A2D96126002EC400905EA8 /* ContentView.swift in Sources */,
+				08509686260BFEE300D7668C /* CalculatorDetails.swift in Sources */,
+				0898F7B7263C63660083FE10 /* SettingsDetailView.swift in Sources */,
+				08509682260BB35100D7668C /* DataManager.swift in Sources */,
+				08A2D96126002EC400905EA8 /* MainMenu.swift in Sources */,
+				0898F7B5263C63510083FE10 /* SettingsDetails.swift in Sources */,
+				0898F7B3263C63380083FE10 /* SettingsUI .swift in Sources */,
+				0850968D260D059500D7668C /* CalendarPage.swift in Sources */,
+				08509680260BB2AE00D7668C /* LoginPage.swift in Sources */,
+				08509684260BEBE500D7668C /* CalculatorPage.swift in Sources */,
 				08A2D95C26002EC400905EA8 /* SceneDelegate.swift in Sources */,
+				0898F7B1263C62F80083FE10 /* HerbiaryUI .swift in Sources */,
+				0850968B260CCF7400D7668C /* DetailView.swift in Sources */,
+				0826B5B8261F2F730017B480 /* HerbiaryDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
